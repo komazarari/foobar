@@ -1,0 +1,18 @@
+{
+  "initializeCommand": ["echo", "ThisisInitializeCommand", "OK,''"],
+  "onCreateCommand": {
+    "check_onCreate": ["echo", "Thisis onCreateCommand", "OK ''"]
+  },
+  "updateContentCommand": {
+    "check_updc": ["echo", "Thisis updateContentCommand", "OK ''"]
+  },
+  "postCreateCommand": {
+    "check_postC": ["echo", "Thisis postCreateCommand", "OK ''"]
+  },
+  "postStartCommand": {
+    "check_postS": ["echo", "Thisis postStartCommand", "OK ''"]
+  },
+  "postAttachCommand": {
+    "check_postA": ["echo", "Thisis postAttachCommand", "OK ''"]
+  }
+}
