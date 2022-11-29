@@ -1,5 +1,8 @@
 {
-  "initializeCommand": ["echo", "ThisisInitializeCommand", "OK,''"],
+  "initializeCommand": {
+    "echoInit": ["echo", "ThisisInitializeCommand", "OK,''"],
+    "countInit": "echo `date` >> initCount.log"
+  },
   "onCreateCommand": {
     "check_onCreate": ["echo", "Thisis onCreateCommand", "OK ''"]
   },
